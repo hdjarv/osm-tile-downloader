@@ -1,0 +1,36 @@
+{
+  "name": "osm-tile-downloader",
+  "version": "1.0.0",
+  "description": "Script for downloading map tile images from an OSM tile server",
+  "bin": {
+    "osm-tile-downloader": "./osm-tile-downloader.js"
+  },
+  "scripts": {
+    "start": "node ./osm-tile-downloader.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdjarv/osm-tile-downloader.git"
+  },
+  "keywords": [
+    "osm",
+    "open",
+    "street",
+    "map",
+    "download"
+  ],
+  "author": "Henrik Djärv <henrik@djarv.org> (https://github.com/hdjarv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hdjarv/osm-tile-downloader/issues"
+  },
+  "homepage": "https://github.com/hdjarv/osm-tile-downloader#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "lodash": "^3.10.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.10.6",
+    "winston": "^1.0.1"
+  }
+}
